@@ -65,11 +65,7 @@ echo $americans;
 <h2>6.</h2>
 
 <?php
-/*
-subst_count
-$amer = array('An American In Paris');
-$letters = ['A', 'a'];
-*/
+
 ?>
 
 <h2>7.</h2>
@@ -100,66 +96,13 @@ echo $it;
 <h2>8.</h2>
 
 <?php
-/*
-regex
-$starWars = 'Star Wars: Episode '.str_repeat(' ', rand(0,5)). rand(1,9) . ' - A New Hope';
-$epis = explode(' ', $starWars);
-$episode = rand(1,9);
-if(strpos($starWars, $episode) !== false){
-    echo $episode;
-} else{
-    echo "Word Not Found!";
-}
-echo $BR;
-echo $starWars;
-echo $BR;
-print_r($epis);
-*/
+
 ?>
 
 <h2>9.</h2>
 
 <?php
 
-/*$juice = "Don't Be a Menace to South Central While Drinking Your Juice in the Hood";
-$sultys = "Tik nereikia gąsdinti Pietų Centro, geriant sultis pas save kvartale";
-$arrJuice=array();
-$arrSultys = array();
-$countSultys = 0;
-$countJuice = 0;
-$x = 0;
-$y = 0;
- $i = 0;
- $t = 0;
-while ($i<=strlen($juice)){
-    if ($juice[$i] != ' '){
-    $arrJuice[$t]++;
-    }
-    else {$t++;}
-$i++;
-}
-foreach ($arrJuice as $char){
-if($char <= 5) {
-    ++$countJuice;
-}
-}
-
-while ($x<=strlen($sultys)){
-    if ($sultys[$x] != ' '){
-    $arrSultys[$y]++;
-    }
-    else {$y++;}
-$x++;
-}
-foreach ($arrSultys as $cha){
-if($cha <= 5) {
-    ++$countSultys;
-}
-}
-echo $countSultys;
-echo $BR;
-echo $countJuice;
-*/
 
 ?>
 

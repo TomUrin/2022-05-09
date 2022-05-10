@@ -66,6 +66,7 @@ echo $americans;
 
 <?php
 /*
+subst_count
 $amer = array('An American In Paris');
 $letters = ['A', 'a'];
 */
@@ -100,6 +101,7 @@ echo $it;
 
 <?php
 /*
+regex
 $starWars = 'Star Wars: Episode '.str_repeat(' ', rand(0,5)). rand(1,9) . ' - A New Hope';
 $epis = explode(' ', $starWars);
 $episode = rand(1,9);
@@ -182,6 +184,13 @@ echo generateRandomString();
 
 <?php
 
+$pirmas = "Don't Be a Menace to South Central While Drinking Your Juice in the Hood";
+$antras = "Tik nereikia gąsdinti Pietų Centro, geriant sultis pas save kvartale";
 
+$masyvas = explode(' ', $pirmas.' '.$antras);
 
+shuffle($masyvas);
+array_splice($masyvas, 0, 13);
+$atsakymas = implode(' ', $masyvas);
+echo $atsakymas;
 ?>
